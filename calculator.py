@@ -1,3 +1,7 @@
+# Smart Calculator Project
+# Author: Shaikarshadzn
+# Description: Menu-driven calculator using Python functions
+
 def add(a, b):
     return a + b
 
@@ -27,6 +31,10 @@ while True:
         print("Exiting calculator. Goodbye!")
         break
 
+    if choice not in ["1", "2", "3", "4"]:
+        print("Invalid choice. Try again.")
+        continue
+
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
 
@@ -38,5 +46,3 @@ while True:
         print(f"Result: {multiply(a, b)}")
     elif choice == "4":
         print(f"Result: {divide(a, b)}")
-    else:
-        print("Invalid choice. Please try again.")
