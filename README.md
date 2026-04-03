@@ -1,9 +1,16 @@
-# 🧮 Smart Calculator (Python Project)
+# 🐍 Python Mini Projects
 
-## 📌 Description
-This is a menu-driven calculator built using Python. It performs basic arithmetic operations and runs continuously until the user exits.
+This repository contains my beginner Python projects built during practice.  
+These projects helped me understand core programming concepts and problem-solving.
 
-## 🚀 Features
+---
+
+## 📌 Projects
+
+### 1️⃣ Smart Calculator 🧮
+A menu-driven calculator that performs basic arithmetic operations.
+
+**Features:**
 - Addition
 - Subtraction
 - Multiplication
@@ -11,15 +18,47 @@ This is a menu-driven calculator built using Python. It performs basic arithmeti
 - Handles division by zero
 - Continuous execution using loop
 
-## 🧠 Concepts Used
+**Concepts Used:**
 - Functions
-- Loops (while)
 - Conditional statements (if-elif-else)
+- Loops (while)
+
+📂 File: `calculator.py`
+
+---
+
+### 2️⃣ Number Guessing Game 🎯
+A fun game where the computer generates a random number and the user tries to guess it.
+
+**Features:**
+- Random number generation
+- User input handling
+- Hints (Too high / Too low)
+- Limited attempts (5 tries)
+- Win / Game Over message
+
+**Concepts Used:**
+- Loops (while)
+- Conditional statements
+- Random module
+- Counters
+
+📂 File: `guess_game.py`
+
+---
+
+## 🧠 Concepts Covered
+- Variables and Data Types
+- User Input
+- Conditional Statements
+- Loops
+- Functions
+- Modules (random)
+
+---
 
 ## ▶️ How to Run
-1. Download the file
-2. Run:
-   python calculator.py
 
-## 👤 Author
-Shaikarshadzn
+1. Clone the repository:
+```bash
+git clone https://github.com/shaikarshadzn/python-mini-projects.git
